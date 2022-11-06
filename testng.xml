@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Integers">
+	<test name="ComparisonCases">
+		<parameter name="firstNo"
+		           value="5" ></parameter >
+		<parameter name="secondNo"
+		           value="6" ></parameter >
+		<parameter name="thirdNo"
+		           value="5" ></parameter >
+    <classes>
+      <class name="TestNGTest">
+      </class>
+	  </classes>
+  </test>
+</suite>
